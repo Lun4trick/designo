@@ -8,11 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        'Jost': ["Jost", "sans-serif"]
       },
+
+      colors: {
+        'peach': '#E7816B',
+        'black': '#1D1C1E',
+        'light-peach': '#FFAD9B',
+        'dark-gray': '#333136',
+        'light-gray': '#F1F3F5',
+      },
+
+      backgroundImage: {
+        'ham-open': 'url("/img/Hamburger-button-open.svg")',
+        'ham-close': 'url("/img/Hamburger-button-close.svg")',
+      }
     },
   },
   plugins: [],
