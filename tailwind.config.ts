@@ -23,6 +23,7 @@ const config: Config = {
       backgroundImage: {
         'ham-open': 'url("/img/Hamburger-button-open.svg")',
         'ham-close': 'url("/img/Hamburger-button-close.svg")',
+        'intro-bg-mobile': 'url("/img/intro-bg-mobile.svg")',
       }
     },
   },
